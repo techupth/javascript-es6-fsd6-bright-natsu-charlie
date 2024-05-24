@@ -3,7 +3,7 @@ const employee1 = {
   age: 20,
 };
 
-const result1 = employee1.scores.english;
+const result1 = employee1.scores?.english ?? null;
 
 const employee2 = {
   name: "A",
