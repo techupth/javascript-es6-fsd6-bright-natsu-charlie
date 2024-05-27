@@ -11,9 +11,18 @@ let additionalProperties = {
   hobbies: ["Football", "Coding"],
 };
 
+
+let updatedStudentProfile = {
+  ...studentProfile,
+  ...additionalProperties,
+};
+
+console.log(updatedStudentProfile);
+
 // Start coding here
 let newStudentProfile = {
   ...studentProfile,
   ...additionalProperties,
 };
 console.log(newStudentProfile);
+

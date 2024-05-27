@@ -16,9 +16,17 @@ let additionalHobbies = {
   hobbies: ["Painting", "Yoga"],
 };
 
+
+let newStudentProfile = {
+  ...studentProfile,
+  hobbies: [...studentProfile.hobbies, ...additionalHobbies],
+};
+
+
 // Start coding here
 let newStudentProfile = {
   ...studentProfile,
   ...additionalHobbies,
 };
+
 console.log(newStudentProfile);
