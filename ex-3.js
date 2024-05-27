@@ -9,5 +9,6 @@ let additionalOrders = [
   { orderId: "A005", paymentType: "Credit Card", totalPrice: 45000 },
 ];
 
-let newOrders = orders.concat(additionalOrders);
-console.log(newOrders);
+let updatedOrders = [...orders, ...additionalOrders];
+
+console.log(updatedOrders);

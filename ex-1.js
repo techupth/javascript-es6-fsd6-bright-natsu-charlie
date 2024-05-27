@@ -11,6 +11,9 @@ let additionalProperties = {
   hobbies: ["Football", "Coding"],
 };
 
-let newStudentProfile = Object.assign({}, studentProfile, additionalProperties);
+let updatedStudentProfile = {
+  ...studentProfile,
+  ...additionalProperties,
+};
 
-console.log(newStudentProfile);
+console.log(updatedStudentProfile);

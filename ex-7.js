@@ -1,3 +1,4 @@
+// Exercise #7: Optional Chaining
 const employee1 = {
   name: "John",
   age: 20,

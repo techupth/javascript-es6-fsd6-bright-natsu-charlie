@@ -12,7 +12,12 @@ let studentScores = {
   tech: 100,
 };
 
-studentProfile.scores = { ...studentProfile.scores, ...studentScores };
-let newStudentProfile = studentProfile;
+let updatedStudentProfile = {
+  ...studentProfile,
+  scores: {
+    ...studentProfile.scores,
+    ...studentScores,
+  },
+};
 
-console.log(newStudentProfile);
+console.log(updatedStudentProfile);
