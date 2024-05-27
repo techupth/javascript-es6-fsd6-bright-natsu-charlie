@@ -1,5 +1,9 @@
 let height = undefined;
 
+
+let result = height ?? "Height is not defined";
+
+
 function checkHeight(height) {
   return height ?? "Height is not defined";
 }

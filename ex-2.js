@@ -12,7 +12,12 @@ let studentScores = {
   tech: 100,
 };
 
+
 let updatedStudentProfile = {
+
+// Start coding here
+let newStudentProfile = {
+
   ...studentProfile,
   scores: {
     ...studentProfile.scores,
